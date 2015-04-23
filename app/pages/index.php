@@ -6,6 +6,7 @@
 
 html::$id = 'homepage';
 html::$class = 'homepage';
+html::$author = 'Bilal Cinarli';
 
 ?>
 <?php tools::inc('includes/header'); ?>

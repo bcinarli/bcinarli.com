@@ -33,14 +33,9 @@ module.exports = function(grunt) {
         },
         browserSync: {
             dev: {
-                bsFiles: {
-                    src: [
-                        'assets/styles/*.css',
-                        './*.php'
-                    ]
-                },
                 options: {
                     proxy: 'http://os/bcinarli.com/',
+                    files: ['app/assets/styles/*.css', 'app/assets/**/*.js', 'app/**/*.php'],
                     watchTask: true
                 }
             }
