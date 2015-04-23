@@ -35,7 +35,7 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     proxy: 'http://os/bcinarli.com/',
-                    files: ['app/assets/styles/*.css', 'app/assets/**/*.js', 'app/**/*.php'],
+                    files: ['app/assets/styles/*.css', 'app/assets/**/*.js', 'app/assets/images/*', 'app/**/*.php'],
                     watchTask: true
                 }
             }

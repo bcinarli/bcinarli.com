@@ -1,0 +1,21 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Header
+    ------------------------------------------- **/
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    @include dims(100%, 100px);
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include dims(100%, 1px);
+        background: url("../images/rainbow.png") center;
+    }
+}

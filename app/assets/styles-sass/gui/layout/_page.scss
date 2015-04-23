@@ -1,14 +1,15 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
-    GUI
+    Page
     ------------------------------------------- **/
-//
-// Layout
-//
-@import "layout/layout";
+.page-wrap {
 
-//
-// Components
-//
-@import "components/components";
+}
+
+.content-holder {
+    position: relative;
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}

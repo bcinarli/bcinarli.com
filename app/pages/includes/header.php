@@ -15,9 +15,20 @@
 	<link rel="stylesheet" href="<?php echo url::styles('styles.css'); ?>">
     <link rel="shortcut icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 </head>
-<body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
+<body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="stationary ' . html::$class . '"' : ''; ?>>
 	<div id="wrapper" class="page-wrap">
 		<header class="page-header">
-			<h1 class="page-heading"><?php echo html::$title; ?></h1>
+            <div class="content-holder">
+                <h1 class="page-title">
+                    <a href="<?php echo url::homepage(); ?>" class="logo">
+                        <span class="logo-image"></span>
+                        <span class="logo-name">Bilal Çınarlı</span>
+                    </a>
+                </h1>
+
+                <nav class="page-nav">
+                    <?php navigation::getNav('main_nav', 'output=&wrap='); ?>
+                </nav>
+            </div>
 		</header>
-		<div id="main" class="main-content">
+		<div id="content" class="page-content">

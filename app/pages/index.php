@@ -10,5 +10,6 @@ html::$author = 'Bilal Cinarli';
 
 ?>
 <?php tools::inc('includes/header'); ?>
-<?php sample::helloWorld(); ?>
+    <section id="cover" class="page-cover"></section>
+
 <?php tools::inc('includes/footer');

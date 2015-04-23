@@ -1,0 +1,31 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Logo
+    ------------------------------------------- **/
+.logo {
+    @include center-vertical();
+    color: #fff;
+    text-decoration: none;
+    @include app-transition();
+
+    &-image {
+        display: inline-block;
+        @include dims(80px);
+        background: center no-repeat;
+        background-size: 100%;
+        @include retina-image('logo');
+        vertical-align: middle;
+    }
+
+    .stationary & {
+        .logo-image {
+            @include dims(85px);
+            @include retina-image('logo-invert');
+        }
+
+        .logo-name {
+            opacity: 0;
+        }
+    }
+}

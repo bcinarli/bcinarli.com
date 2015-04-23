@@ -1,0 +1,21 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Cover
+    ------------------------------------------- **/
+.page-cover {
+    position: relative;
+    @include dims(100%, 600px);
+    background: url("../images/cover.jpg") top center no-repeat;
+    background-size: 100%;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        @include dims(100%);
+        background-color: rgba(0, 0, 0, .1);
+    }
+}
