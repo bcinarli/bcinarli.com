@@ -1999,6 +1999,60 @@ dl {
     ------------------------------------------- **/
 /* @author Bilal Cinarli */
 /** -------------------------------------------
+    Elements
+    ------------------------------------------- **/
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Fonts
+    ------------------------------------------- **/
+@font-face {
+  font-family: "bcinarli";
+  src:  url("../fonts/bcinarli.woff?caffeine") format("woff"), url("../fonts/bcinarli.ttf?caffeine") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "bcinarli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Icons
+    ------------------------------------------- **/
+.icon-facebook:before {
+  content: "\ea8c"; }
+
+.icon-twitter:before {
+  content: "\ea91"; }
+
+.icon-github:before {
+  content: "\eab1"; }
+
+.icon-linkedin:before {
+  content: "\eac9"; }
+
+.icon-lab:before {
+  content: "\e600"; }
+
+.icon-tie:before {
+  content: "\e601"; }
+
+.icon-box:before {
+  content: "\e602"; }
+
+.icon-chat:before {
+  content: "\e603"; }
+
+.icon-ruler:before {
+  content: "\e604"; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
     Layout
     ------------------------------------------- **/
 /* @author Bilal Cinarli */
@@ -2069,6 +2123,27 @@ dl {
         background-image: url("../images/logo-invert@2x.png"); } }
   .stationary .logo .logo-name {
     opacity: 0; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Navigation
+    ------------------------------------------- **/
+.page-nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0; }
+  .page-nav a {
+    margin-left: 20px;
+    font-size: 1.25rem;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+    .page-nav a:before {
+      font-size: 1.5rem;
+      margin-right: 5px;
+      vertical-align: middle; }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------

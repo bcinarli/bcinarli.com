@@ -1,0 +1,22 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Navigation
+    ------------------------------------------- **/
+.page-nav {
+    @include center-vertical();
+    right: 0;
+
+    a {
+        margin-left: 20px;
+        @include font-size(20px);
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+
+        &:before {
+            @include font-size(24px);
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    }
+}

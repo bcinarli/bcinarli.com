@@ -4,11 +4,11 @@
  * @link http://bcinarli.com
  **/
 
-    $main_nav = array(
-        array('name' => 'What', 'url' => '/#what'),
-        array('name' => 'How', 'url' => '/#how'),
-        array('name' => 'Did', 'url' => '/#did'),
-        array('name' => 'Say Hi', 'url' => '/#say-hi')
-	);
+$main_nav = array(
+    array('name' => 'What', 'url' => '/#what', 'linkclass' => 'icon-lab'),
+    array('name' => 'How', 'url' => '/#how', 'linkclass' => 'icon-ruler'),
+    array('name' => 'Did', 'url' => '/#did', 'linkclass' => 'icon-tie'),
+    array('name' => 'Say Hi', 'url' => '/#say-hi', 'linkclass' => 'icon-chat')
+);
 
-	$GLOBALS['main_nav'] = $main_nav;
+$GLOBALS['main_nav'] = $main_nav;
