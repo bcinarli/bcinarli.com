@@ -1,0 +1,39 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Fields
+    ------------------------------------------- **/
+.form-elements {
+    li {
+        margin-bottom: 5px;
+    }
+
+    .buttons {
+        padding-left: 145px;
+    }
+
+    [class*="-field"] {
+        border-radius: 3px;
+    }
+}
+
+.text-field {
+    width: 300px;
+}
+
+.message-field {
+    width: 400px;
+    height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-field,
+    .message-field {
+        width: 100%;
+    }
+
+    .buttons {
+        padding: 0;
+        text-align: right;
+    }
+}

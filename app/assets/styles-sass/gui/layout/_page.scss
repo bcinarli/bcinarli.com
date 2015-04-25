@@ -17,3 +17,14 @@
     height: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 600px){
+    .columns {
+        float: none;
+    }
+
+    .one-third,
+    .two-thirds {
+        width: 100%;
+    }
+}

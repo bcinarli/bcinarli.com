@@ -4,6 +4,14 @@
     Social Personas
     ------------------------------------------- **/
 .social {
+    &-links {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
     &-personas {
         padding-top: $base-gutter;
     }

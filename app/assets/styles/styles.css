@@ -2039,6 +2039,57 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
+    Forms
+    ------------------------------------------- **/
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Labels
+    ------------------------------------------- **/
+@media screen and (max-width: 600px) {
+  .item {
+    display: block; } }
+.item-label {
+  width: 140px;
+  padding-right: 5px;
+  font-size: 1.125rem;
+  text-align: right;
+  vertical-align: top; }
+  @media screen and (max-width: 800px) and (orientation: portrait) {
+    .item-label {
+      display: block;
+      text-align: left; } }
+.item-hint {
+  font-size: 0.875rem;
+  font-style: italic; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Fields
+    ------------------------------------------- **/
+.form-elements li {
+  margin-bottom: 5px; }
+.form-elements .buttons {
+  padding-left: 145px; }
+.form-elements [class*="-field"] {
+  border-radius: 3px; }
+
+.text-field {
+  width: 300px; }
+
+.message-field {
+  width: 400px;
+  height: 100px; }
+
+@media screen and (max-width: 600px) {
+  .text-field,
+  .message-field {
+    width: 100%; }
+
+  .buttons {
+    padding: 0;
+    text-align: right; } }
+/* @author Bilal Cinarli */
+/** -------------------------------------------
     Layout
     ------------------------------------------- **/
 /* @author Bilal Cinarli */
@@ -2055,6 +2106,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   margin: 0 auto; }
 
+@media screen and (max-width: 600px) {
+  .columns {
+    float: none; }
+
+  .one-third,
+  .two-thirds {
+    width: 100%; } }
 /* @author Bilal Cinarli */
 /** -------------------------------------------
     Header
@@ -2212,6 +2270,10 @@ h1, h2, h3, h4, h5, h6 {
 /** -------------------------------------------
     Social Personas
     ------------------------------------------- **/
+.social-links {
+  list-style: none; }
+  .social-links a {
+    text-decoration: none; }
 .social-personas {
   padding-top: 20px; }
 .social-persona {
