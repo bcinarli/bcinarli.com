@@ -6,7 +6,7 @@
 .page-cover {
     position: relative;
     @include dims(100%, 525px);
-    background: url("../images/cover.jpg") top center no-repeat;
+    background: url("../images/cover.jpg") center no-repeat;
     background-size: 100%;
 
     @media screen and (orientation: portrait) {
