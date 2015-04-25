@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         browserSync: {
             dev: {
                 options: {
-                    proxy: 'http://os/bcinarli.com/',
+                    proxy: 'http://local-os/bcinarli.com/',
                     files: ['app/assets/styles/*.css', 'app/assets/**/*.js', 'app/assets/images/*', 'app/**/*.php'],
                     watchTask: true
                 }
