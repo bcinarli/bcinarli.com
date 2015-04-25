@@ -1,7 +1,8 @@
 /* @author Bilal Cinarli */
 
 /** -------------------------------------------
-    Fonts
+    Headings
     ------------------------------------------- **/
-@include font-icon('bcinarli', 'bcinarli');
-@include font-face('Museo Slab', 'museo-slab-500');
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Museo Slab', Georgia, Times, serif;
+}
