@@ -2098,6 +2098,7 @@ h1, h2, h3, h4, h5, h6 {
       .logo-image {
         background-image: url("../images/logo@2x.png"); } }
   .stationary .logo .logo-image {
+    opacity: 0;
     width: 85px;
     height: 85px;
     background-image: url("../images/logo-invert.png"); }
@@ -2120,11 +2121,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 0; }
   .page-nav a {
     margin-left: 20px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #fff;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
     .page-nav a:before {
-      font-size: 1.5rem;
       margin-right: 5px;
       vertical-align: middle; }
 
@@ -2135,9 +2135,12 @@ h1, h2, h3, h4, h5, h6 {
 .page-cover {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 525px;
   background: url("../images/cover.jpg") top center no-repeat;
   background-size: 100%; }
+  @media screen and (orientation: portrait) {
+    .page-cover {
+      background-size: auto 100%; } }
   .page-cover:before {
     content: "";
     position: absolute;
@@ -2159,18 +2162,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 980px;
   min-height: 200px;
-  padding-left: 250px;
   color: #fff; }
-.cover-photo {
-  position: absolute;
-  left: 0;
-  vertical-align: middle; }
-  .cover-photo img {
-    display: block;
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+  @media screen and (min-width: 981px) {
+    .cover-content {
+      padding-left: 250px; } }
+  @media screen and (max-width: 980px) {
+    .cover-content {
+      padding: 20px; } }
+@media screen and (min-width: 981px) {
+  .cover-photo {
+    position: absolute;
+    left: 0;
+    vertical-align: middle; } }
+.cover-photo img {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 .cover-title, .cover-subtitle {
   margin-bottom: 10px;
   line-height: 1;
@@ -2193,7 +2202,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin-right: 10px;
   font-size: 1.5rem;
-  line-height: 32px;
+  line-height: 34px;
   color: #fff;
   text-align: center;
   vertical-align: top; }
@@ -2219,6 +2228,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-content {
   padding: 40px 0;
   font-size: 1.5rem; }
+  .section-content a {
+    color: #222; }
+  @media screen and (max-width: 980px) {
+    .section-content {
+      padding: 40px; } }
 .section-title {
   font-size: 1.875rem;
   text-align: center; }
