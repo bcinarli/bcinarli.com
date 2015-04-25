@@ -1,0 +1,20 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Content Sections
+    ------------------------------------------- **/
+.page-section {
+
+}
+
+.section {
+    &-content {
+        padding: 2*$base-gutter 0;
+        @include font-size(24px);
+    }
+
+    &-title {
+        @include font-size(30px);
+        text-align: center;
+    }
+}
