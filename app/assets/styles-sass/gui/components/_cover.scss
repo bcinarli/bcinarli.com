@@ -19,3 +19,45 @@
         background-color: rgba(0, 0, 0, .1);
     }
 }
+
+.cover {
+    &-content {
+        @include center();
+        z-index: 2;
+        width: 100%;
+        max-width: 980px;
+        min-height: 200px;
+        padding-left: 250px;
+        color: #fff;
+    }
+
+    &-photo {
+        position: absolute;
+        left: 0;
+        vertical-align: middle;
+
+        img {
+            display: block;
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+        }
+    }
+
+    &-title,
+    &-subtitle {
+        margin-bottom: 10px;
+        line-height: 1;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    }
+
+    &-title {
+        margin-top: 30px;
+        @include font-size(40px);
+    }
+
+    &-subtitle {
+        @include font-size(24px);
+    }
+}
