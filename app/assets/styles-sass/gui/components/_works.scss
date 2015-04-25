@@ -1,0 +1,71 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    Works
+    ------------------------------------------- **/
+.work {
+    &-samples {
+        padding: 0;
+        margin: 0 0 0 -2*$base-gutter;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    &-sample {
+        position: relative;
+        float: left;
+        width: 200px;
+        min-height: 350px;
+        margin: 0 0 $base-gutter 2*$base-gutter;
+
+        &-preview {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            @include dims(200px);
+            margin-bottom: 10px;
+            border-radius: 50%;
+            border: 5px solid #000;
+            text-align: center;
+        }
+
+        &-title {
+            margin-bottom: 5px;
+            @include font-size(20px);
+        }
+
+        &-description {
+            @include font-size(16px);
+        }
+
+        [class*="logo-"] {
+            font-family: "Museo Slab", Georgia, serif;
+            @include font-size(120px);
+            font-style: normal;
+            line-height: 190px;
+        }
+
+        &:hover {
+            a:after {
+                content: "Visit Website";
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                @include dims(195px);
+                border-radius: 50%;
+                background-color: rgba(0, 0, 0, .3);
+                color: #fff;
+                line-height: 200px;
+                text-align: center;
+            }
+        }
+    }
+
+    &-image {
+        display: block;
+        width: 200px;
+    }
+}

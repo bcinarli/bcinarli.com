@@ -2232,10 +2232,62 @@ h1, h2, h3, h4, h5, h6 {
     color: #222; }
   @media screen and (max-width: 980px) {
     .section-content {
-      padding: 40px; } }
+      padding: 40px 40px 0; } }
 .section-title {
   font-size: 1.875rem;
   text-align: center; }
+
+/* @author Bilal Cinarli */
+/** -------------------------------------------
+    Works
+    ------------------------------------------- **/
+.work-samples {
+  padding: 0;
+  margin: 0 0 0 -40px;
+  list-style: none; }
+  .work-samples a {
+    text-decoration: none; }
+.work-sample {
+  position: relative;
+  float: left;
+  width: 200px;
+  min-height: 350px;
+  margin: 0 0 20px 40px; }
+  .work-sample-preview {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    text-align: center; }
+  .work-sample-title {
+    margin-bottom: 5px;
+    font-size: 1.25rem; }
+  .work-sample-description {
+    font-size: 1rem; }
+  .work-sample [class*="logo-"] {
+    font-family: "Museo Slab", Georgia, serif;
+    font-size: 7.5rem;
+    font-style: normal;
+    line-height: 190px; }
+  .work-sample:hover a:after {
+    content: "Visit Website";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    line-height: 200px;
+    text-align: center; }
+.work-image {
+  display: block;
+  width: 200px; }
 
 /**
  * Lastly, import Melange Auxiliary
