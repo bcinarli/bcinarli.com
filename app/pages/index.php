@@ -32,4 +32,12 @@ html::$author = 'Bilal Cinarli';
         </div>
     </section>
 
+    <?php tools::inc('_what'); ?>
+
+    <?php tools::inc('_how'); ?>
+
+    <?php tools::inc('_did'); ?>
+
+    <?php tools::inc('_say-hi'); ?>
+
 <?php tools::inc('includes/footer');
