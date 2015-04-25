@@ -21,7 +21,12 @@
                 </ol>
             </div>
             <div class="two-thirds column">
-                <form id="hello" action="">
+                <form id="hello" action="#say-hi" method="post">
+                    <?php if(!empty($GLOBALS['result'])): ?>
+                    <div class="note">
+                        <?php echo $GLOBALS['result']; ?>
+                    </div>
+                    <?php endif; ?>
                     <ol class="form-elements">
                         <li class="group">
                             <label class="item item-field">
