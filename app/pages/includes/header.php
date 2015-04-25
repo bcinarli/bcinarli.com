@@ -5,7 +5,7 @@
  **/
 ?>
 <!DOCTYPE html>
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +14,14 @@
 
 	<link rel="stylesheet" href="<?php echo url::styles('styles.min.css'); ?>">
     <link rel="shortcut icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
+
+    <meta property="fb:app_id" content="298952123566093" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bilal Cinarli" />
+    <meta property="og:url" content="http://bcinarli.com/" />
+    <meta property="og:site_name" content="Bilal Cinarli" />
+    <meta property="og:image" content="<?php echo url::make_abs_url('app/assets/images/'); ?>photo.jpg" />
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
     <div id="wrapper" class="page-wrap">

@@ -100,7 +100,7 @@
             </li>
 
             <li class="work-sample">
-                <a href="http://www.lokmanhekimhastanesi.com" target="_blank">
+                <a href="http://www.lokmanhekim.com.tr" target="_blank">
                     <span class="work-sample-preview">
                         <img src="<?php echo url::base_url('content/2015/lokman-hekim-hastanesi.jpg'); ?>" class="work-image" />
                     </span>
