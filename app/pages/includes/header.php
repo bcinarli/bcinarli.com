@@ -12,7 +12,7 @@
 	<?php html::load_meta(); ?>
     <meta name="author" content="<?php echo html::$author; ?>" />
 
-	<link rel="stylesheet" href="<?php echo url::styles('styles.css'); ?>">
+	<link rel="stylesheet" href="<?php echo url::styles('styles.min.css'); ?>">
     <link rel="shortcut icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>

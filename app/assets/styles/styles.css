@@ -2080,6 +2080,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 400px;
   height: 100px; }
 
+.note {
+  text-align: center;
+  font-style: italic; }
+  .note p {
+    margin: 0 0 5px; }
+
 @media screen and (max-width: 600px) {
   .text-field,
   .message-field {
@@ -2183,6 +2189,8 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 0; }
+  .error-404 .page-nav {
+    display: none; }
   .page-nav a {
     margin-left: 20px;
     font-size: 1.5rem;
