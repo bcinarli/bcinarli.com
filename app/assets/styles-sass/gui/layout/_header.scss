@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     z-index: 99;
-    @include dims(100%, 100px);
+    @include dims(100%, 80px);
 
     &:before {
         content: "";
@@ -17,5 +17,10 @@
         left: 0;
         @include dims(100%, 1px);
         background: url("../images/rainbow.png") center;
+    }
+
+    .is-scrolled & {
+        background-color: rgba(255, 255, 255, .8);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
     }
 }

@@ -4,7 +4,22 @@
     Content Sections
     ------------------------------------------- **/
 .page-section {
+    position: relative;
 
+    &:after {
+        content: "";
+        @include center-horizontal();
+        bottom: 0;
+        @include dims(200px, 2px);
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+    &:last-child {
+        &:after {
+            display: none;
+        }
+    }
 }
 
 .section {

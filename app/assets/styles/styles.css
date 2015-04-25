@@ -2034,6 +2034,9 @@ dl {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Museo Slab', Georgia, Times, serif; }
 
+.page-title {
+  margin: 0; }
+
 /* @author Bilal Cinarli */
 /** -------------------------------------------
     Layout
@@ -2042,6 +2045,10 @@ h1, h2, h3, h4, h5, h6 {
 /** -------------------------------------------
     Page
     ------------------------------------------- **/
+*, *:after, *:before {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
 .content-holder {
   position: relative;
   max-width: 980px;
@@ -2058,7 +2065,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 99;
   width: 100%;
-  height: 100px; }
+  height: 80px; }
   .page-header:before {
     content: "";
     position: absolute;
@@ -2067,6 +2074,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 1px;
     background: url("../images/rainbow.png") center; }
+  .is-scrolled .page-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -2082,31 +2092,27 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  color: #222;
+  text-decoration: none; }
   .logo-image {
     display: inline-block;
-    width: 80px;
-    height: 80px;
-    background: center no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url("../images/photo.jpg") center no-repeat;
     background-size: 100%;
-    background-image: url("../images/logo.png");
-    vertical-align: middle; }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
-      .logo-image {
-        background-image: url("../images/logo@2x.png"); } }
-  .stationary .logo .logo-image {
-    opacity: 0;
-    width: 85px;
-    height: 85px;
-    background-image: url("../images/logo-invert.png"); }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {
-      .stationary .logo .logo-image {
-        background-image: url("../images/logo-invert@2x.png"); } }
-  .stationary .logo .logo-name {
+    vertical-align: middle;
     opacity: 0; }
+    @media screen and (max-width: 480px) {
+      .logo-image {
+        margin-left: 10px; } }
+  .logo-name {
+    opacity: 0; }
+  .is-scrolled .logo .logo-image {
+    opacity: 1; }
+  @media screen and (min-width: 481px) {
+    .is-scrolled .logo .logo-name {
+      opacity: 1; } }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -2124,9 +2130,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5rem;
     color: #fff;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+    .is-scrolled .page-nav a {
+      color: #222;
+      text-shadow: none; }
     .page-nav a:before {
       margin-right: 5px;
       vertical-align: middle; }
+  @media screen and (max-width: 480px) {
+    .page-nav {
+      width: 250px; }
+      .page-nav a {
+        width: 100px; } }
+  @media screen and (orientation: portrait) {
+    .page-nav {
+      right: 20px; } }
 
 /* @author Bilal Cinarli */
 /** -------------------------------------------
@@ -2140,6 +2157,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 100%; }
   @media screen and (orientation: portrait) {
     .page-cover {
+      height: 600px;
       background-size: auto 100%; } }
   .page-cover:before {
     content: "";
@@ -2175,7 +2193,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     vertical-align: middle; } }
 .cover-photo img {
-  display: block;
+  display: inline-block;
   width: 200px;
   border-radius: 50%;
   border: 5px solid #fff;
@@ -2210,6 +2228,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2rem;
     color: #333;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+    @media screen and (orientation: portrait) {
+      .social-persona.github {
+        color: #fff; } }
   .social-persona.twitter {
     padding-top: 2px;
     border-radius: 50%;
@@ -2225,6 +2246,23 @@ h1, h2, h3, h4, h5, h6 {
 /** -------------------------------------------
     Content Sections
     ------------------------------------------- **/
+.page-section {
+  position: relative; }
+  .page-section:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 200px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3); }
+  .page-section:last-child:after {
+    display: none; }
+
 .section-content {
   padding: 40px 0;
   font-size: 1.5rem; }

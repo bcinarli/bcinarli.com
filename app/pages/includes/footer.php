@@ -5,7 +5,8 @@
  **/
 ?>		
 		</div><!-- #main -->
-		<?php include "navigation.php"; ?>
 	</div><!-- #wrapper -->
+    <script src="<?php echo url::scripts('vendors/jquery.min.js'); ?>"></script>
+    <script src="<?php echo url::scripts('app.js'); ?>"></script>
 </body>
 </html>

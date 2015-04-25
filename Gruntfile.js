@@ -5,8 +5,8 @@
 module.exports = function(grunt) {
     // Project configuration
     grunt.initConfig({
-        pkg  : grunt.file.readJSON('package.json'),
-        sass : {
+        pkg        : grunt.file.readJSON('package.json'),
+        sass       : {
             dev : {
                 options: {
                     style: 'nested'
@@ -25,17 +25,32 @@ module.exports = function(grunt) {
                 }
             }
         },
-        watch: {
+        uglify     : {
+            dist: {
+                options: {
+                    sourceMap: true,
+                    sourceMapName: 'app/assets/scripts/sourcemap.map'
+                },
+                files: {
+                    'app/assets/scripts/app.min.js': ['app/assets/scripts/app.js']
+                }
+            }
+        },
+        watch      : {
             css: {
                 files: '**/*.scss',
                 tasks: ['sass']
+            },
+            js : {
+                files: 'app/assets/scripts/app.js',
+                tasks: ['uglify']
             }
         },
         browserSync: {
             dev: {
                 options: {
-                    proxy: 'http://local-os/bcinarli.com/',
-                    files: ['app/assets/styles/*.css', 'app/assets/**/*.js', 'app/assets/images/*', 'app/**/*.php'],
+                    proxy    : 'http://local-os/bcinarli.com/',
+                    files    : ['app/assets/styles/*.css', 'app/assets/scripts/app.min.js', 'app/assets/images/*', 'app/**/*.php'],
                     watchTask: true
                 }
             }
@@ -52,7 +67,9 @@ module.exports = function(grunt) {
     // Load the plugin that provides the "sync" task.
     grunt.loadNpmTasks('grunt-browser-sync');
 
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+
     // Default task(s).
-    grunt.registerTask('dist', ['browserSync', 'watch', 'sass:dist']);
-    grunt.registerTask('dev', ['browserSync', 'watch', 'sass:dev']);
+    grunt.registerTask('dist', ['browserSync', 'watch', 'sass:dist', 'uglify']);
+    grunt.registerTask('dev', ['browserSync', 'watch', 'sass:dev', 'uglify']);
 };
