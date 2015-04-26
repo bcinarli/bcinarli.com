@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /psdup/
+Disallow: /misto/
+Disallow: /app/
+Disallow: /vendors/
+Allow: /
+
