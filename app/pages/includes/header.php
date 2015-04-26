@@ -24,6 +24,7 @@
     <meta property="og:image" content="<?php echo url::make_abs_url('app/assets/images/'); ?>photo.jpg" />
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
+    <?php tools::inc('includes/analytics'); ?>
     <div id="wrapper" class="page-wrap">
 		<header id="masthead" class="page-header">
             <div class="content-holder">

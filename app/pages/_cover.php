@@ -7,7 +7,7 @@
 <section id="cover" class="cover page-cover">
     <div class="cover-content">
             <span class="cover-photo">
-                <img src="<?php echo url::images('photo.jpg'); ?>" alt="Bilal Çınarlı" />
+                <img src="<?php echo url::images('photo.jpg'); ?>" width="200" height="200" alt="Bilal Çınarlı" />
             </span>
 
         <h1 class="cover-title">Bilal Çınarlı</h1>
