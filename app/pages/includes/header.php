@@ -18,7 +18,7 @@
     <meta property="fb:app_id" content="298952123566093" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Bilal Cinarli" />
+    <meta property="og:title" content="<?php echo SITE_TITLE; ?>" />
     <meta property="og:url" content="http://bcinarli.com/" />
     <meta property="og:site_name" content="Bilal Cinarli" />
     <meta property="og:image" content="<?php echo url::make_abs_url('app/assets/images/'); ?>photo.jpg" />
