@@ -6,6 +6,7 @@ RewriteEngine On
 
 Redirect 301 /phpdesigner-syntax-highlighters http://htmlmag.com/article/phpdesigner-syntax-highlighters-with-dark-background
 Redirect 301 /android-logo http://htmlmag.com/article/google-android-logo-with-pure-html-and-css
+Redirect 301 /mobile /
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /psdup/
 Disallow: /misto/
 Disallow: /vendors/
+Disallow: /experiments/
 Allow: /
 
