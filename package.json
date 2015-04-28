@@ -17,7 +17,8 @@
     "css",
     "javascript"
   ],
-  "author": "Bilal Cinarli",
+  "author": "Bilal Cinarli <bcinarli@gmail.com>",
+  "contributors": [],
   "license": "Apache V2",
   "bugs": {
     "url": "https://github.com/bcinarli/bcinarli.com/issues"

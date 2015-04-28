@@ -8,7 +8,7 @@ module.exports = {
         tasks: ["sass"]
     },
     js : {
-        files: "app/assets/scripts/app.js",
-        tasks: ["uglify"]
+        files: ['<%= jshint.files %>'],
+        tasks: ['jshint', 'uglify']
     }
 };
