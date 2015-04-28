@@ -15,6 +15,14 @@
 	<link rel="stylesheet" href="<?php echo url::styles('styles.min.css'); ?>">
     <link rel="shortcut icon" href="<?php echo url::images('favicon.png'); ?>" type="image/x-icon" />
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://bcinarli.com/">
+    <meta name="twitter:title" content="<?php echo SITE_TITLE; ?>">
+    <meta name="twitter:description" content="What I'm Doing? I'm a big enthusiast of building maintainable and scalable front-ends. To achieve this goal, I build frameworks mostly power with Sass, PHP and ...">
+    <meta name="twitter:image" content="<?php echo url::make_abs_url('app/assets/images/'); ?>photo.jpg">
+    <meta name="twitter:site" content="@bcinarli">
+    <meta name="twitter:creator" content="@bcinarli">
+
     <meta property="fb:app_id" content="298952123566093" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
