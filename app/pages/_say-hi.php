@@ -5,7 +5,7 @@
  **/
 ?>
 <!-- say hi to me -->
-<section id="say-hi" class="page-section">
+<div id="say-hi" class="page-section">
     <article class="section-content content-holder">
         <h2 class="section-title"><i class="icon-chat"></i> Say Hi To Me</h2>
         <p>Do you need help? Tried to solve a front-end problem but not worked? Want to consult? Want to build a scalable, future proof web application? Or just chitchat :)</p>
@@ -67,4 +67,4 @@
             </div>
         </div>
     </article>
-</section>
+</div>

@@ -5,7 +5,7 @@
  **/
 ?>
 <!-- how i'm doing -->
-<section id="how" class="page-section">
+<div id="how" class="page-section">
     <article class="section-content content-holder">
         <h2 class="section-title"><i class="icon-ruler"></i> How I'm Doing?</h2>
 
@@ -17,4 +17,4 @@
 
         <p>I like to <strong>try new technologies</strong> and make my hands dirty. I check new frameworks, coding styles and approaches as something new come up.</p>
     </article>
-</section>
+</div>

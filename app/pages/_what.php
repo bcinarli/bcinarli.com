@@ -5,7 +5,7 @@
  **/
 ?>
 <!-- what i'm doing -->
-<section id="what" class="page-section">
+<div id="what" class="page-section">
     <article class="section-content content-holder">
         <h2 class="section-title"><i class="icon-lab"></i> What I'm Doing?</h2>
 
@@ -15,4 +15,4 @@
 
         <p>I <strong>blog</strong> at <a href="http://htmlmag.com">HTML Mag</a> and share my thoughts about web development, mobile approaches. In HTML Mag, we organize events, talks, workshops...</p>
     </article>
-</section>
+</div>

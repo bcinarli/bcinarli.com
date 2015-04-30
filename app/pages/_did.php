@@ -5,7 +5,7 @@
  **/
 ?>
 <!-- what i'm did -->
-<section id="did" class="page-section">
+<div id="did" class="page-section">
     <article class="section-content content-holder">
         <h2 class="section-title"><i class="icon-tie"></i> What I Did?</h2>
         <p>I've coded top class web sites and intranet applications. Worked in more than 400 projects, here are some of the samples...</p>
@@ -36,7 +36,7 @@
             <li class="work-sample">
                 <a href="https://github.com/uxrocket" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/uxrocket.png'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/uxrocket.png'); ?>" alt="UX Rocket Interactions Library" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">UX Rocket</h3>
@@ -47,7 +47,7 @@
             <li class="work-sample">
                 <a href="http://gelecegiyazanlar.turkcell.com.tr" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/gelecegi-yazanlar.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/gelecegi-yazanlar.jpg'); ?>" alt="Turkcell Geleceği Yazanlar" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">Geleceği Yazanlar</h3>
@@ -58,7 +58,7 @@
             <li class="work-sample">
                 <a href="http://www.tai.com.tr" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/tai.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/tai.jpg'); ?>" alt="TAI" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">TAI</h3>
@@ -69,10 +69,10 @@
             <li class="work-sample">
                 <a href="http://www.ufukbahardorduncu.com" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/ufuk-bahar-dorduncu.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/ufuk-bahar-dorduncu.jpg'); ?>" alt="Ufuk & Bahar Dördüncü" width="200" height="200" class="work-image" />
                     </span>
 
-                    <h3 class="work-sample-title">Ufuk&Bahar Dördüncü</h3>
+                    <h3 class="work-sample-title">Ufuk & Bahar Dördüncü</h3>
                     <p class="work-sample-description">Official website for Piano Duo Ufuk & Bahar Dördüncü</p>
                 </a>
             </li>
@@ -80,7 +80,7 @@
             <li class="work-sample">
                 <a href="http://www.mesakartall.com" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/mesa-kartall.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/mesa-kartall.jpg'); ?>" alt="Mesa Kartall" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">Mesa Kartall</h3>
@@ -91,7 +91,7 @@
             <li class="work-sample">
                 <a href="http://www.alcopole.com" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/alcopole.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/alcopole.jpg'); ?>" alt="Alcopole" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">Alcopole</h3>
@@ -102,7 +102,7 @@
             <li class="work-sample">
                 <a href="http://www.lokmanhekim.com.tr" target="_blank">
                     <span class="work-sample-preview">
-                        <img src="<?php echo url::base_url('content/2015/lokman-hekim-hastanesi.jpg'); ?>" width="200" height="200" class="work-image" />
+                        <img src="<?php echo url::base_url('content/2015/lokman-hekim-hastanesi.jpg'); ?>" alt="Lokman Hekim Hastanesi" width="200" height="200" class="work-image" />
                     </span>
 
                     <h3 class="work-sample-title">Lokman Hekim Hastanesi</h3>
@@ -131,4 +131,4 @@
 
         <p>For very extended versions of my works, you can visit my previous agencies web sites. <a href="http://www.iconpm.com" target="_blank">ICON</a>, <a href="http://nine10.ca" target="_blank">Nine10</a></p>
     </article>
-</section>
+</div>

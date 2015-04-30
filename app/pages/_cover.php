@@ -4,14 +4,14 @@
  * @link http://bcinarli.com
  **/
 ?>
-<section id="cover" class="cover page-cover">
-    <div class="cover-content">
-            <span class="cover-photo">
-                <img src="<?php echo url::images('photo.jpg'); ?>" width="200" height="200" alt="Bilal Çınarlı" />
-            </span>
+<div id="cover" class="cover page-cover">
+    <article class="cover-content">
+        <span class="cover-photo">
+            <img src="<?php echo url::images('photo.jpg'); ?>" width="200" height="200" alt="Bilal Çınarlı" />
+        </span>
 
-        <h1 class="cover-title">Bilal Çınarlı</h1>
-        <h2 class="cover-subtitle">Front-end Architect & Full Stack PHP Developer</h2>
+        <h2 class="cover-title">Bilal Çınarlı</h2>
+        <h3 class="cover-subtitle">Front-end Architect & Full Stack PHP Developer</h3>
         <nav class="social-personas">
             <a href="https://github.com/bcinarli" class="social-persona github" target="_blank">
                 <i class="icon-github"></i> <span class="for-screenreader-only">Github Profile</span>
@@ -23,5 +23,5 @@
                 <i class="icon-linkedin"></i> <span class="for-screenreader-only">Linkedin Profile</span>
             </a>
         </nav>
-    </div>
-</section>
+    </article>
+</div>
