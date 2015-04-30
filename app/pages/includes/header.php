@@ -5,7 +5,7 @@
  **/
 ?>
 <!DOCTYPE html>
-<html xmlns:fb="http://ogp.me/ns/fb#">
+<html prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,6 +29,7 @@
     <meta property="og:title" content="<?php echo SITE_TITLE; ?>" />
     <meta property="og:url" content="http://bcinarli.com/" />
     <meta property="og:site_name" content="Bilal Cinarli" />
+    <meta property="og:description" content="What I'm Doing? I'm a big enthusiast of building maintainable and scalable front-ends. To achieve this goal, I build frameworks mostly power with Sass, PHP and ...">
     <meta property="og:image" content="<?php echo url::make_abs_url('app/assets/images/'); ?>photo.jpg" />
 </head>
 <body<?php echo html::$id != '' ? ' id="' . html::$id . '"' : ''; ?><?php echo html::$class != '' ? ' class="' . html::$class . '"' : ''; ?>>
