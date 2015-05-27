@@ -817,8 +817,6 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -921,7 +919,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0.67em 0; }
 
 /**
@@ -997,7 +995,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1rem; }
 
 /* Forms
    ========================================================================== */
@@ -2039,7 +2037,7 @@ a {
     Headings
     ------------------------------------------- **/
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Museo Slab', Georgia, Times, serif; }
+  font-family: "Museo Slab", Georgia, Times, serif; }
 
 .page-title {
   margin: 0; }
@@ -2303,7 +2301,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: top; }
   .social-persona.github {
     font-size: 2rem;
-    color: #333;
+    color: #222;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
     @media screen and (orientation: portrait) {
       .social-persona.github {
@@ -2384,7 +2382,7 @@ h1, h2, h3, h4, h5, h6 {
   .work-sample-description {
     font-size: 1rem; }
   .work-sample [class*="logo-"] {
-    font-family: "Museo Slab", Georgia, serif;
+    font-family: "Museo Slab", Georgia, Times, serif;
     font-size: 7.5rem;
     font-style: normal;
     line-height: 190px; }
