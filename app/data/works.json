@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Caffeine",
+    "description": "Sass Mixin and Functions Library",
+    "url": "https://github.com/bcinarli/caffeine",
+    "preview": {
+      "use": "icon",
+      "content": "C"
+    }
+  },
+  {
+    "name": "Melange",
+    "description": "A maintainable CSS architecture approach",
+    "url": "https://github.com/bcinarli/melange",
+    "preview": {
+      "use": "icon",
+      "content": "M"
+    }
+  },
+  {
+    "name": "UX Rocket",
+    "description": "A set of JavaScript components for interactive sites",
+    "url": "https://github.com/uxrocket",
+    "preview": "uxrocket.png"
+  },
+  {
+    "name": "Geleceği Yazanlar",
+    "description": "Mobile development and education community support by Turkcell",
+    "url": "http://gelecegiyazanlar.turkcell.com.tr",
+    "preview": "gelecegi-yazanlar.jpg"
+  },
+  {
+    "name": "TAI",
+    "description": "Corporate website and content management system for Turkish Aerospace Industry",
+    "url": "http://www.tai.com.tr",
+    "preview": "tai.jpg"
+  },
+  {
+    "name": "Ufuk & Bahar Dördüncü",
+    "description": "Official website for Piano Duo Ufuk & Bahar Dördüncü",
+    "url": "http://www.ufukbahardorduncu.com",
+    "preview": "ufuk-bahar-dorduncu.jpg"
+  },
+  {
+    "name": "Mesa Kartall",
+    "description": "Responsive website and content management system for Mesa Kartal Residence",
+    "url": "http://www.mesakartall.com",
+    "preview": "mesa-kartall.jpg"
+  },
+  {
+    "name": "Alcopole",
+    "description": "Content management system and JavaScript based animations for Alcopole Lightning Poles",
+    "url": "http://www.alcopole.com",
+    "preview": "alcopole.jpg"
+  },
+  {
+    "name": "Enterprise Video Portal",
+    "description": "Backbone and Sharepoint based video and broadcasting portal for Turkcell",
+    "preview": {
+      "use": "icon",
+      "content": "P"
+    }
+  },
+  {
+    "name": "Inventory App",
+    "description": "Backbone based tablet web app for searching and comparing smart phones and tablets",
+    "preview": {
+      "use": "icon",
+      "content": "I"
+    }
+  }
+]
