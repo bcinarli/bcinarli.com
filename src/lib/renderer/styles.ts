@@ -13,5 +13,5 @@ export const applyStyles = (styles: { [key: string]: string }) => {
     return classNames.join(" ").trim();
   };
 
-  return (style: string) => apply(style);
+  return (style: string | string[]) => apply(style);
 };
