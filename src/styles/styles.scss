@@ -1,0 +1,91 @@
+@import 'variables';
+
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('/fonts/museo-slab-500.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colaborate';
+  src: url('/fonts/colaborate-thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colaborate';
+  src: url('/fonts/colaborate-regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*:where(:not(iframe, canvas, img, svg, video, div, header, footer, aside, nav, strong):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html,
+body {
+  font: 24px/1.5 'Colaborate', Helvetica, Arial, sans-serif;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Museo Slab', Georgia, Times, serif;
+}
+
+p {
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+
+  &-content {
+    max-width: var(--max-content-width);
+  }
+
+  &-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: var(--max-content-width);
+  font-size: 0.8rem;
+}

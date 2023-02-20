@@ -1,0 +1,65 @@
+.page-cover {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 525px;
+  background: url(/images/cover.jpg) center no-repeat;
+  background-size: 100%;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.15);
+  }
+
+  @media  screen and (orientation: portrait) {
+    height: 600px;
+    background-size: auto 100%;
+  }
+}
+
+.cover {
+  &-content {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    max-width: var(--max-content-width);
+  }
+
+  &-photo {
+    & img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+    }
+  }
+
+  &-title,
+  &-subtitle {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #f9f9f9;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  }
+
+  &-title {
+    font-size: 2rem;
+  }
+
+  &-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
