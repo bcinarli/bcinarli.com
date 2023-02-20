@@ -100,3 +100,17 @@ p {
   clip: rect(0 0 0 0);
   clip: rect(0, 0, 0, 0);
 }
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  gap: .9rem;
+
+  svg {
+    width: 2rem;
+  }
+}
+
+svg {
+  fill: var(--text-color);
+}

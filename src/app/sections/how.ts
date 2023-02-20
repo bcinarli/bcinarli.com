@@ -1,10 +1,11 @@
 import { html } from "../../lib/renderer";
+import Wave from "../icons/wave";
 
 const How = () => {
   return html`
     <div id="how" class="section">
       <article class="section-content">
-        <h2 class="section-title"><i class="icon-ruler"></i> How I'm Doing?</h2>
+        <h2 class="section-title">${Wave()} How I'm Doing?</h2>
 
         <p>
           In front-end development, I use <strong>HTML5</strong>,
