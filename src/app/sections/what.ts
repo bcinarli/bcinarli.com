@@ -8,7 +8,7 @@ const What = () => {
         <h2 class="section-title">${Hat()} What I'm Doing?</h2>
 
         <p>
-          I'm a big enthusiast of building <strong>maintainable</strong> and <strong>scalable</strong> front-ends. To
+          I'm a big enthusiast of building <strong>maintainable</strong> and <strong>scalable</strong> frontends. To
           achieve this goal, I <strong>build</strong> frameworks mostly powered with Sass, PHP and love. I
           <strong>maintain</strong> open-source projects such as
           <a href="https://github.com/bcinarli/caffeine" target="_blank" title="Sass based Mixin and Functions library"
@@ -34,9 +34,9 @@ const What = () => {
 
         <p>
           In day-to-day works, I code <strong>mobile web apps</strong> and <strong>JavaScript applications</strong> for
-          intranets and as well as clients. I <strong>manage</strong> teams and <strong>optimize</strong> the front-end
+          intranets and as well as clients. I <strong>manage</strong> teams and <strong>optimize</strong> the frontend
           development approaches through different development teams. Also, I <strong>teach</strong> HTML/CSS and
-          JavaScript techniques and gave workshops about Front-end related topics.
+          JavaScript techniques and gave workshops about frontend related topics.
         </p>
 
         <p>

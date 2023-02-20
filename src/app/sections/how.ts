@@ -8,7 +8,7 @@ const How = () => {
         <h2 class="section-title">${Wave()} How I'm Doing?</h2>
 
         <p>
-          In front-end development, I use <strong>HTML5</strong>,
+          In frontend development, I use <strong>HTML5</strong>,
           <strong>CSS/Sass</strong> and
           <strong>ES6/JavaScript/React/Backbone/jQuery</strong> or whatever I
           need. I create my own jQuery plugin when I need one. When I need more
