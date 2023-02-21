@@ -12,7 +12,7 @@ const Cover = () => {
     <div id="cover" class="${css(['page-cover', 'cover'])}">
       <section class="${css('cover-content')}">
         <div class="${css('cover-photo')}">
-          <img src="/images/photo.jpg" width="200" height="200" alt="Bilal Çınarlı" />
+          <img src="/images/photo.webp" width="200" height="200" alt="Bilal Çınarlı" />
         </div>
 
         <div class="${css('cover-text-section')}">
