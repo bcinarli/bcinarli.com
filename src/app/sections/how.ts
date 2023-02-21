@@ -10,7 +10,7 @@ const How = () => {
         <p>
           In frontend development, I use <strong>HTML5</strong>,
           <strong>CSS/Sass</strong> and
-          <strong>ES6/JavaScript/React/Backbone/jQuery</strong> or whatever I
+          <strong>ES6/ JavaScript/ React/ Backbone/ jQuery</strong> or whatever I
           need. I create my own jQuery plugin when I need one. When I need more
           robust application I use ES6. For simple views and small applications
           I prefer Backbone. When building advanced applications I use

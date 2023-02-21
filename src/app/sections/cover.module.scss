@@ -33,6 +33,11 @@
     align-items: center;
     width: 100%;
     max-width: var(--max-content-width);
+
+    @media screen and (max-width: 62rem) {
+      flex-direction: column;
+      padding: 2rem;
+    }
   }
 
   &-photo {
