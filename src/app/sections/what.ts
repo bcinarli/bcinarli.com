@@ -9,39 +9,28 @@ const What = () => {
 
         <p>
           I'm a big enthusiast of building <strong>maintainable</strong> and <strong>scalable</strong> frontends. To
-          achieve this goal, I <strong>build</strong> frameworks mostly powered with Sass, PHP and love. I
-          <strong>maintain</strong> open-source projects such as
-          <a href="https://github.com/bcinarli/caffeine" target="_blank" title="Sass based Mixin and Functions library"
-            >Caffeine</a
-          >,
-          <a href="https://github.com/bcinarli/melange" target="_blank" title="A maintainable CSS architecture approach"
-            >Melange</a
-          >,
-          <a
-            href="https://github.com/bcinarli/misto"
-            target="_blank"
-            title="A PHP based prototyping and blogging framework"
-            >Misto</a
-          >
-          and
-          <a
-            href="https://github.com/uxrocket"
-            target="_blank"
-            title="A set of jQuery plugins and JavaScript methods for interactive sites"
-            >UX Rocket</a
-          >
+          achieve this goal; I <strong>analyse</strong> the problems, <strong>observe</strong> the business changes,
+          <strong>partner</strong> with product owners to <strong>define</strong> technology roadmaps and look for
+          opportunities.
         </p>
 
         <p>
-          In day-to-day works, I code <strong>mobile web apps</strong> and <strong>JavaScript applications</strong> for
-          intranets and as well as clients. I <strong>manage</strong> teams and <strong>optimize</strong> the frontend
-          development approaches through different development teams. Also, I <strong>teach</strong> HTML/CSS and
-          JavaScript techniques and gave workshops about frontend related topics.
+          I deal with <strong>architectural decisions</strong>, PoCs, enabling engineers to
+          <strong>perform without blockers</strong>. Also, to improve <strong>developer experience</strong>, I deal with
+          <strong>developer tooling</strong>, analyse the pain points and work to improve the local development
+          environment, developer happiness and productivity.
         </p>
 
         <p>
-          I <strong>blog</strong> at <a href="http://htmlmag.com">HTML Mag</a> and share my thoughts about web
-          development, mobile approaches. In HTML Mag, we organize events, talks, workshops...
+          I help to <strong>grow</strong> my team both in technical and in their soft skills. I regularly
+          <strong>mentor</strong> junior engineers and <strong>coach</strong> senior / staff engineers. Throughout my
+          career, I <strong>hired</strong> engineers, <strong>built high-performing teams</strong>, and managed team
+          harmony and growth.
+        </p>
+
+        <p>
+          To deliver the goals better, depending on the needs and requirements, I built web <strong>frameworks</strong>, created <strong>design
+          systems</strong>, designed <strong>frontend architectures</strong>, taught modern web development and gave workshops.
         </p>
       </article>
     </div>
