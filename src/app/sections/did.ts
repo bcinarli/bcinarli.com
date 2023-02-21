@@ -17,8 +17,12 @@ const Did = () => {
         </p>
 
         <p>
-          I created a simple rendering engine for this page, it is about 100 lines of code and helps me to create
-          components, update DOM and write HTML inside JavaScript.
+          I created a
+          <a href="https://github.com/bcinarli/bcinarli.com/tree/main/src/lib/renderer" target="_blank"
+            >simple rendering engine</a
+          >
+          for this page, it is about 100 lines of code and helps me to create components, update DOM and write HTML
+          inside JavaScript.
         </p>
 
         <p>
