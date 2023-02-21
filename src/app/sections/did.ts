@@ -45,13 +45,25 @@ const Did = () => {
               target="_blank"
             >
               <span>Micro Applications @WeAreDevelopers</span>
-              <span><img src="/images/micro-applications.webp" width="300" /></span>
+              <span
+                ><img
+                  src="/images/micro-applications.webp"
+                  width="300"
+                  height="170"
+                  alt="Presentation cover for the talk called, Micro Applications; Independently together; Better Developer experience and app performance"
+              /></span>
             </a>
           </li>
           <li>
             <a href="https://speakerdeck.com/bcinarli/micro-applications-divide-and-conquer" target="_blank">
               <span>Micro Applications @International JS Conference</span>
-              <span><img src="/images/micro-applications-02.webp" width="300" /></span>
+              <span
+                ><img
+                  src="/images/micro-applications-02.webp"
+                  width="300"
+                  height="170"
+                  alt="Presentation cover for the talk called, Micro Applications: Device&Conquer"
+              /></span>
             </a>
           </li>
         </ol>
