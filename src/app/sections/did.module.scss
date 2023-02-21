@@ -1,0 +1,17 @@
+.conference-list {
+  display: flex;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 62rem) {
+    flex-direction: column;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}
