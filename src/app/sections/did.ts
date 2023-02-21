@@ -60,7 +60,7 @@ const Did = () => {
           With my team, in Turkcell, I created a <strong>design system</strong> library called
           <strong>UXRocket</strong> and Sass/CSS tooling for it called <strong>Caffeine</strong> and
           <strong>Melange</strong> and a templating library called <strong>Breve</strong>. Turkcell still uses this
-          design system and tooling around it in it's CRM application that serves more them 40 million customer.
+          design system and tooling around it in it's CRM application that serves more than 40 million customer.
         </p>
 
         <p>
