@@ -33,6 +33,14 @@ const What = () => {
           created <strong>design systems</strong>, designed <strong>frontend architectures</strong>, taught modern web
           development and gave workshops.
         </p>
+
+        <p>
+          I volunteer at <strong>Women in Tech</strong> and <strong>Women Developer Academy</strong> and mentor junior
+          or new grad candidates to give back to the community. Also, I'm a
+          <strong>Google Developer Expert in Web Technologies</strong>. With that, I speak at online or onsite
+          conferences and join podcasts to share my knowledge and experience both in technical and managerial/career
+          aspects.
+        </p>
       </article>
     </div>
   `;

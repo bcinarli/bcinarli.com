@@ -76,8 +76,8 @@ const Did = () => {
         </p>
 
         <p>
-          During my agency years, I created a PHP/MySQL based Content Management System that supports templating and
-          taxonomy and extensions. Also, for customers, we built a e-mail marketing software to sent newsletters.
+          During my agency years, I created a PHP/MySQL-based Content Management System that supports templating,
+          taxonomy, and extensions. Also, we built an e-mail marketing software for customers to send newsletters.
         </p>
       </article>
     </div>
